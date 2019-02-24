@@ -2,7 +2,7 @@
 A Web App to Generate Secure, Easy to Memorize Passwords for Temporary Employee Passwords or for Children, written in Racket and Scheme
 
 ### Motivation for this Project
-I've been working on a little program in Racket that creates an easy to remember, friendly sounding password, similar to DinoPass, but that would be more secure. It takes a few lists containing several lists of cheerful sounding words, and concatenates words from those list into a string, and then replaces letters with symbolic characters. (e.g. replaces "a" with "@", "i" with "1", and so on...) When I learned about Racket's web server capabilities, I thought it would be fun to do this as a 100% Scheme/Racket web app.
+I've been working on a little program in Scheme that creates an easy to remember, friendly sounding password, similar to DinoPass, but that would be more secure. It takes a few lists containing several lists of cheerful sounding words, and concatenates words from those list into a string, and then replaces letters with symbolic characters. (e.g. replaces "a" with "@", "i" with "1", and so on...) When I learned about Racket's web server capabilities, I thought it would be fun to do this as a 100% Scheme/Racket web app.
 
 This would be also have a practical use for me, as it would be something I would actually use.
 
