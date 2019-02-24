@@ -1,4 +1,4 @@
-# kindpass
+# dragonpass
 A Web App to Generate Secure, Easy to Memorize Passwords for Temporary Employee Passwords or for Children, written in Racket and Scheme
 
 Setup for Ubuntu 18.10 Cosmic:
