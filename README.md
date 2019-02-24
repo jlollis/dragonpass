@@ -6,7 +6,7 @@ I've been working on a little program in Racket that creates an easy to remember
 
 This would be also have a practical use for me, as it would be something I would actually use.
 
-Now that most businesses are moving to 2 factor authentication and password management software for employee passwords, a service like this may not seem to be as useful as it once would have been, but is still needed for temporary passwords, and would benefit families and small businesses in particular. Even if you use a password manager for everything, this app could help you pick a good, secure master password that you can remember without having to write down and possibly misplace.
+Now that most businesses are moving to 2 factor authentication and password management software for employee passwords, a service like this may not seem to be as useful as it once would have been, but is still needed for temporary passwords for manual password resets, and would benefit families and small businesses in particular. Even if you use a password manager for everything, this app could help you pick a good, secure master password that you can remember without having to write down and possibly misplace.
 
 Setup for Ubuntu 18.10 Cosmic:
 
