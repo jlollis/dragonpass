@@ -20,3 +20,6 @@ Setup for Ubuntu 18.10 Cosmic:
 8.  Insert pic
 9.  Css styling
 10. VPS or port forwarding
+
+## Status
+Look, right now its a bit of a dumpster fire in here. Racket is really cute but there is a reason this isn't widely used. I've uploaded the files and am working on getting something completed. 
