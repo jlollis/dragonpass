@@ -1,0 +1,6 @@
+#lang racket
+
+(define (start n m)
+(set! lower (min n m))
+(set! upper (max n m))
+(guess))

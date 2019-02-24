@@ -1,0 +1,8 @@
+#lang racket
+
+;https://stackoverflow.com/questions/16335454/reading-from-file-using-scheme
+
+(define data "the text in
+mydata.scm here")
+
+(load "mydata.scm")

@@ -1,0 +1,9 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-advanced-reader.ss" "lang")((modname servelet) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #f)))
+#lang web-server/insta
+(define (start request)
+  (response/xexpr
+   '(html
+     (head (title "My Blog"))
+     (body (h1 "Under construction")))))
