@@ -70,7 +70,7 @@
              "p { color: white; padding-top: 1em; font-size: 45px;}")
           (body
             (h1 "🐉 DragonPass")
-            (h2 "(A simple password generator, written in Racket)")
+            (h2 "(A Simple Password Generator, Written in Racket)")
             (p, (password))))))
 
 (define-values (route-dispatch route-url)
