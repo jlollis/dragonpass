@@ -44,8 +44,6 @@
           "hwyl"
           "haruspex")))
 
-;(display (password))
-
 (define (password)
   (string-append (word1)
                  " "
@@ -55,30 +53,36 @@
                  " "
                  (word4)))
 
+
 (define (not-found-route request)
   (xexpr:response/xexpr
-   `(html (body (h2 "Uh-oh! Page not found.")))))
+   `(html (body (h2 "404: Page not found.")))))
 
 (define (home-route request)
   (xexpr:response/xexpr
    `(html
+     (head (title "DragonPass"))
      '(style
          ((type "text/css"))
              "body { background-color: #ACAEFB;
                      text-align: center;
                      font-family: Arial, Helvetica, sans-serif; }"
-             "h1 { color: white; padding-top: 5rem; font-size: 50px;}"
+             "h1 { color: white; padding-top: 2rem; font-size: 50px;}"
              "h2 { color: white; padding-top: .25rem;
                    font-style: italic; font-size: 18px;}"
              "p { color: white; padding-top: 1rem;
-                  padding-bottom: 25rem;
                   font-size: 45px;}"
              "footer { postition: absolute; bottom: 0; width:100%; color: white; }")
           (body
-            (h1 "🐉 DragonPass")
+            (h1 "DragonPass "
+                (img
+                 ((src "https://lists.racket-lang.org/users/archive/attachments/20091030/38e9bc10/attachment-0001.svg" )(width "30")(height "30"))))
             (h2 "(A Simple Password Generator, Written in Racket)")
+            (img ((src "http://clipart-library.com/images/8iAbeGdbT.png" )(width "500")(height "500")))
+            ;(img ((src "blue-dragon.png" )(width "600")(height "600")))
             (p, (password)
-            (footer "Julie Lollis, 2019 | Hosted on Linode"))))))
+            (footer "Julie Lollis, 2019 | Hosted on "
+                    (a ((href "https://www.linode.com/")) "Linode")))))))
 
 (define-values (route-dispatch route-url)
   (dispatch:dispatch-rules
