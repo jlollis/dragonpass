@@ -67,13 +67,18 @@
              "body { background-color: #ACAEFB;
                      text-align: center;
                      font-family: Arial, Helvetica, sans-serif; }"
-             "h1 { color: white; padding-top: 2em; font-size: 50px;}"
-             "h2 { color: white; padding-top: .25em; font-style: italic; font-size: 18px;}"
-             "p { color: white; padding-top: 1em; font-size: 45px;}")
+             "h1 { color: white; padding-top: 5rem; font-size: 50px;}"
+             "h2 { color: white; padding-top: .25rem;
+                   font-style: italic; font-size: 18px;}"
+             "p { color: white; padding-top: 1rem;
+                  padding-bottom: 25rem;
+                  font-size: 45px;}"
+             "footer { postition: absolute; bottom: 0; width:100%; color: white; }")
           (body
             (h1 "🐉 DragonPass")
             (h2 "(A Simple Password Generator, Written in Racket)")
-            (p, (password))))))
+            (p, (password)
+            (footer "Julie Lollis, 2019 | Hosted on Linode"))))))
 
 (define-values (route-dispatch route-url)
   (dispatch:dispatch-rules
