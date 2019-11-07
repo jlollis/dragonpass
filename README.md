@@ -2,7 +2,9 @@
 
 Simple Password Generator, a web application written in Racket
 
-Follows the XKCD method to create secure, easy to remember passwords.
+Follows the XKCD method to create secure, easy to remember passwords. ;) 
+
+Just a fun thing to test out racket's web server capabilities.
 
 You can view it live [here](http://74.207.227.49/).
 
