@@ -78,7 +78,7 @@
                 (img
                  ((src "https://lists.racket-lang.org/users/archive/attachments/20091030/38e9bc10/attachment-0001.svg" )(width "30")(height "30"))))
             (h2 "(A Simple Password Generator, Written in Racket)")
-            (img ((src "http://clipart-library.com/images/8iAbeGdbT.png" )(width "500")(height "500")))
+            (img ((src "https://jlollis.github.io/images/blue-dragon.png" )(width "500")(height "500")))
             ;(img ((src "blue-dragon.png" )(width "600")(height "600")))
             (p, (password)
             (footer "Julie Lollis, 2019 | Hosted on "
